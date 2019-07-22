@@ -112,17 +112,18 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl:hover,
 .btn-xl:focus,
-.btn-xl:active,
+/*.btn-xl:active,*/
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
   background-color: #EF5D30;
-  border-color: #f6bf01;
+  border-color: #ffffff;
 }
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   background-image: none;
+
 }
 .btn-xl.disabled,
 .btn-xl[disabled],
@@ -735,7 +736,7 @@ ul.social-buttons li a:active {
 }
 ::selection {
   text-shadow: none;
-  background: #EF5D30;
+/*  background: #EF5D30;*/
 }
 img::selection {
   background: transparent;
