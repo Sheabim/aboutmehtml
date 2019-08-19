@@ -9,9 +9,12 @@ body {
 }
 .text-muted {
   color: #777777;
+  
 }
 .text-primary {
   color: #EF5D30;
+  opacity: 0.7;
+  filter: alpha(opacity=60)
 }
 p {
   font-size: 14px;
@@ -117,7 +120,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
   color: white;
   background-color: #EF5D30;
-  border-color: #ffffff;
+  border-color: #f1f1f1;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -227,7 +230,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/header-bg3.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -241,6 +244,7 @@ header {
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
+
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -249,6 +253,10 @@ header .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
 }
+
+
+
+
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -314,6 +322,7 @@ section h3.section-subheading {
   position: relative;
   max-width: 400px;
   margin: 0 auto;
+
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(239,93,48, 0.5);
@@ -424,10 +433,10 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #EF5D30;
+  background-color: #000000;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 1px solid #f1f1f1;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
@@ -543,7 +552,7 @@ section h3.section-subheading {
 }
 .team-member img {
   margin: 0 auto;
-  border: 7px solid white;
+  border: 1px solid white;
 }
 .team-member h4 {
   margin-top: 25px;
